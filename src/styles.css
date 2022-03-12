@@ -4,15 +4,20 @@
 @tailwind utilities;
 
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
 
 body {
-    background-color: grey;
-    background-image: url(https://images.pexels.com/photos/260689/pexels-photo-260689.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
-    background-size: cover;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Mulish', sans-serif;
 }
 
-.grey-bg{
-    /* background-color: grey; */
+.orange-bg {
+    background-color: #fe7a01;
+}
+
+.black-bg {
+    background-color: #464646;
+}
+
+.beige-bg {
+    background-color: #fff3e4;
 }

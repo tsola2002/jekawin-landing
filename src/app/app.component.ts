@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormControl, FormGroup, Validators } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'jekawin-landing';
+
+  subscribeForm = new FormGroup({
+    email: new FormControl('', [Validators.required])
+  })
+
+  formSubmit(form: FormGroup): void {
+    const { email } = form.value;
+    console.log("EMAIL VALUE:", email);
+  }
+
 }
