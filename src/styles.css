@@ -3,21 +3,47 @@
 @tailwind components;
 @tailwind utilities;
 
-
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap'); */
-
 body {
-    font-family: 'Mulish', sans-serif;
+  font-family: "Mulish", sans-serif;
+  /* background-color: #fff3e4; */
 }
 
 .orange-bg {
-    background-color: #fe7a01;
+  background-color: #fe7a01;
+}
+
+.orange-color {
+  color: #fe7a01;
+}
+
+.purple-bg {
+  background-color: #543884;
+}
+
+.purple-color2 {
+  color: #543884;
 }
 
 .black-bg {
-    background-color: #464646;
+  background-color: #464646;
+}
+
+.black-color {
+  color: #464646;
 }
 
 .beige-bg {
-    background-color: #fff3e4;
+  background-color: #fff3e4;
+}
+
+.beige-color {
+  color: #fff3e4;
+}
+
+.subscribe-box input {
+  width: 28rem;
+}
+
+.subscribe-box button {
+  width: 28rem;
 }
