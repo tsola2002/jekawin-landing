@@ -53,5 +53,32 @@ body {
 }
 
 .second-box {
-    left: 19rem;
+  left: 19rem;
+}
+
+#countdown-timer {
+  height: 200px;
+  background-color: white;
+  /* padding-top: 10rem; */
+  margin-top: 12rem;
+}
+
+.custom-shape-divider-top-1647210470 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1647210470 svg {
+  position: relative;
+  display: block;
+  width: calc(272% + 1.3px);
+  /* height: 411px; */
+}
+
+.custom-shape-divider-top-1647210470 .shape-fill {
+  fill: #fff3e4;
 }
