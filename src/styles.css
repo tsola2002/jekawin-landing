@@ -41,9 +41,13 @@ body {
 }
 
 .subscribe-box input {
-  width: 28rem;
+  width: 30rem;
 }
 
 .subscribe-box button {
-  width: 28rem;
+  width: 10rem;
+}
+
+.second-box {
+    left: 19rem;
 }
