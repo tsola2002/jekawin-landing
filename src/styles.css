@@ -47,7 +47,8 @@ body {
 }
 
 #coming-soon {
-  clear: both;
+  /* clear: both; */
+  padding-bottom: 9rem;
 }
 
 .subscribe-box input {
@@ -60,6 +61,11 @@ body {
 
 .second-box {
   left: 19rem;
+}
+
+#top-countdown-timer {
+    /* margin-top: 6rem; */
+
 }
 
 #countdown-timer {
