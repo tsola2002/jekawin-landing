@@ -1,7 +1,7 @@
 <!-- HEADER SECTION -->
 <div class="top-header beige-bg">
     <section id="header" class="container mx-auto py-12">
-        <div class="flex ...">
+        <div class="flex">
             <div class="flex-none h-14">
                 <img src="../assets/img/jekawin-logo.svg" alt="">
             </div>
@@ -25,15 +25,17 @@
                 <p class="pb-3 beige-bg">stand a chance to win gifts and reward <br /> points on jekawin.</p>
                 <div class="beige-bg">
                     <div class="">
-                        <div class="relative subscribe-box">
-                            <input type="text" class="h-14 pl-10 rounded-lg z-0 focus:shadow focus:outline-none"
-                                placeholder="Enter your email address">
-                            <div class="second-box absolute top-2">
-                                <button class="h-10 w-23 px-2 text-white rounded-lg orange-bg hover:bg-orange-600">Join the
-                                    waitlist</button>
+                        <form [formGroup]="userForm" (ngSubmit)="submitUser()" action="">
+                            <div class="relative subscribe-box">
+                                <input type="text" formControlName="email" class="h-14 pl-10 rounded-lg z-0 focus:shadow focus:outline-none"
+                                    placeholder="Enter your email address">
+                                <div class="second-box absolute top-2">
+                                    <button class="h-10 w-23 px-2 text-white rounded-lg orange-bg hover:bg-orange-600">Join the waitlist</button>
+                                </div>
+                            
                             </div>
-    
-                        </div>
+                        </form>
+                        
                     </div>
                 </div>
             </div>
