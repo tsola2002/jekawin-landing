@@ -9,7 +9,7 @@
                 
             </div>
             <div class="flex-none h-14 pt-5">
-                <button class="orange-bg rounded-2xl py-3 px-12 text-white">Join the waitlist</button>
+                <button class="orange-bg rounded-3xl py-3 px-12 text-white">Join the waitlist</button>
             </div>
         </div>
     </section>
@@ -63,6 +63,41 @@
             </svg>
         </div>
     </section>
+    
+    <div class="timer-content purple-color container mx-auto text-center">
+        <ul class="flex justify-center">
+            <li class="px-4">
+                <span class="count-date font-bold text-3xl pb-2">Days</span><br/>
+                <p class="count-date font-extrabold text-6xl beige-bg rounded-2xl mt-3 py-4 px-2">{{ days }}</p>
+                <!-- <span class="count-date font-extrabold text-6xl beige-bg rounded-2xl">05</span> -->
+            </li>
+            <li class="px-4">
+                <span class="font-bold text-3xl">
+                    :
+                </span>
+            </li>
+            <li class="px-4">
+                <span class="count-date font-bold text-3xl">Hours</span><br />
+                <!-- <span class="count-date font-bold text-6xl beige-bg rounded-2xl">53</span> -->
+                <p class="count-date font-extrabold text-6xl beige-bg rounded-2xl mt-3 py-4 px-2">{{ hours }}</p>
+            </li>
+            <li class="px-4">
+                <span class="font-bold text-3xl">
+                    :
+                </span>
+            </li>
+            <li class="px-4">
+                <span class="count-date font-bold text-3xl">Mins</span><br />
+                <!-- <span class="count-date font-bold text-6xl beige-bg rounded-2xl">32</span> -->
+                <p class="count-date font-extrabold text-6xl beige-bg rounded-2xl mt-3 py-4 px-2">{{ mins }}</p>
+            </li>
+            <li class="px-4">
+                <span class="count-date font-bold text-3xl">Secs</span><br />
+                <!-- <span class="count-date font-bold text-6xl beige-bg rounded-2xl">32</span> -->
+                <p class="count-date font-extrabold text-6xl beige-bg rounded-2xl mt-3 py-4 px-2">{{ secs }}</p>
+            </li>
+        </ul>
+    </div>
 </div>
     
 
