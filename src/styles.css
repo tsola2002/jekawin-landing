@@ -40,8 +40,14 @@ body {
   background-color: #fff3e4;
 }
 
+
+
 .beige-color {
   color: #fff3e4;
+}
+
+#coming-soon {
+  clear: both;
 }
 
 .subscribe-box input {
@@ -60,7 +66,7 @@ body {
   height: 200px;
   background-color: white;
   /* padding-top: 10rem; */
-  margin-top: 12rem;
+  /* margin-top: 12rem; */
 }
 
 .custom-shape-divider-top-1647210470 {
@@ -82,3 +88,28 @@ body {
 .custom-shape-divider-top-1647210470 .shape-fill {
   fill: #fff3e4;
 }
+
+.custom-shape-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-2 svg {
+  position: relative;
+  display: block;
+  width: calc(272% + 1.3px);
+  /* height: 411px; */
+}
+
+.custom-shape-2 .shape-fill {
+  fill: white;
+}
+
+/* .footer-content {
+  padding-top: 16rem;
+  padding-bottom: 6rem;
+} */
